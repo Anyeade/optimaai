@@ -55,7 +55,7 @@ const Hero = () => {
             </div>
             {/* Right: Video Card */}
             <div className="flex-1 flex items-stretch justify-center w-full md:w-auto h-full">
-              <div className="rounded-2xl overflow-hidden shadow-2xl border border-white/10 bg-[#181c2a] p-2 w-full max-w-xl h-full flex items-stretch justify-center">
+              <div className="rounded-2xl overflow-hidden shadow-2xl border border-white/10 bg-[#181c2a] p-2 w-full max-w-xl h-[420px] md:h-[520px] lg:h-[600px] xl:h-[680px] flex items-stretch justify-center">
                 <video
                   src="/demo/trioappdemo.mp4"
                   controls
