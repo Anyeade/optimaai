@@ -10,39 +10,49 @@ const Table: React.FC<React.TableHTMLAttributes<HTMLTableElement>> = ({ children
       {/* Apply spacing and wrapping to all table cells */}
       {React.Children.map(children, (child) => {
         if (React.isValidElement(child) && child.type === "thead") {
-          return React.cloneElement(child, {
+          const thead = child as React.ReactElement<any>;
+          return React.cloneElement(thead, {
             className: "",
-            children: React.Children.map(child.props.children, (row) =>
-              React.isValidElement(row)
-                ? React.cloneElement(row, {
-                    children: React.Children.map(row.props.children, (cell) =>
-                      React.isValidElement(cell)
-                        ? React.cloneElement(cell, {
-                            className: "px-4 py-3 min-w-[140px] whitespace-normal break-words align-top font-semibold text-base text-gray-800 dark:text-gray-100",
-                          })
-                        : cell
-                    )
+            children: React.Children.map(thead.props.children, (row) => {
+              if (React.isValidElement(row)) {
+                const tr = row as React.ReactElement<any>;
+                return React.cloneElement(tr, {
+                  children: React.Children.map(tr.props.children, (cell) => {
+                    if (React.isValidElement(cell)) {
+                      const th = cell as React.ReactElement<any>;
+                      return React.cloneElement(th, {
+                        className: "px-4 py-3 min-w-[140px] whitespace-normal break-words align-top font-semibold text-base text-gray-800 dark:text-gray-100",
+                      });
+                    }
+                    return cell;
                   })
-                : row
-            ),
+                });
+              }
+              return row;
+            })
           });
         }
         if (React.isValidElement(child) && child.type === "tbody") {
-          return React.cloneElement(child, {
+          const tbody = child as React.ReactElement<any>;
+          return React.cloneElement(tbody, {
             className: "",
-            children: React.Children.map(child.props.children, (row) =>
-              React.isValidElement(row)
-                ? React.cloneElement(row, {
-                    children: React.Children.map(row.props.children, (cell) =>
-                      React.isValidElement(cell)
-                        ? React.cloneElement(cell, {
-                            className: "px-4 py-3 min-w-[140px] whitespace-normal break-words align-top",
-                          })
-                        : cell
-                    )
+            children: React.Children.map(tbody.props.children, (row) => {
+              if (React.isValidElement(row)) {
+                const tr = row as React.ReactElement<any>;
+                return React.cloneElement(tr, {
+                  children: React.Children.map(tr.props.children, (cell) => {
+                    if (React.isValidElement(cell)) {
+                      const td = cell as React.ReactElement<any>;
+                      return React.cloneElement(td, {
+                        className: "px-4 py-3 min-w-[140px] whitespace-normal break-words align-top",
+                      });
+                    }
+                    return cell;
                   })
-                : row
-            ),
+                });
+              }
+              return row;
+            })
           });
         }
         return child;
