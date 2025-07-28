@@ -1,6 +1,8 @@
 [
   {
     "filename": "ai-models.mdx",
+    "path": "/docs/ai-models",
+    "url": "https://www.optimaai.cc/docs/ai-models",
     "title": "AI Models",
     "sections": [
       {
@@ -27,6 +29,8 @@
   },
   {
     "filename": "chatting.mdx",
+    "path": "/docs/chatting",
+    "url": "https://www.optimaai.cc/docs/chatting",
     "title": "Chatting with AI",
     "sections": [
       {
@@ -57,6 +61,8 @@
   },
   {
     "filename": "comparison.mdx",
+    "path": "/docs/comparison",
+    "url": "https://www.optimaai.cc/docs/comparison",
     "title": "Comparison",
     "sections": [
       {
@@ -67,6 +73,8 @@
   },
   {
     "filename": "custom-models.mdx",
+    "path": "/docs/custom-models",
+    "url": "https://www.optimaai.cc/docs/custom-models",
     "title": "Custom Models",
     "sections": [
       {
@@ -89,6 +97,8 @@
   },
   {
     "filename": "debugging.mdx",
+    "path": "/docs/debugging",
+    "url": "https://www.optimaai.cc/docs/debugging",
     "title": "Debugging",
     "sections": [
       {
@@ -115,6 +125,8 @@
   },
   {
     "filename": "faq.mdx",
+    "path": "/docs/faq",
+    "url": "https://www.optimaai.cc/docs/faq",
     "title": "Frequently Asked Questions",
     "sections": [
       {
@@ -145,6 +157,8 @@
   },
   {
     "filename": "github.mdx",
+    "path": "/docs/github",
+    "url": "https://www.optimaai.cc/docs/github",
     "title": "GitHub Integration",
     "sections": [
       {
@@ -163,6 +177,8 @@
   },
   {
     "filename": "importing.mdx",
+    "path": "/docs/importing",
+    "url": "https://www.optimaai.cc/docs/importing",
     "title": "Importing Apps",
     "sections": [
       {
@@ -189,6 +205,8 @@
   },
   {
     "filename": "local-models.mdx",
+    "path": "/docs/local-models",
+    "url": "https://www.optimaai.cc/docs/local-models",
     "title": "Local Models",
     "sections": [
       {
@@ -211,6 +229,8 @@
   },
   {
     "filename": "mobile.mdx",
+    "path": "/docs/mobile",
+    "url": "https://www.optimaai.cc/docs/mobile",
     "title": "Mobile App",
     "sections": [
       {
@@ -241,6 +261,8 @@
   },
   {
     "filename": "overview.mdx",
+    "path": "/docs/overview",
+    "url": "https://www.optimaai.cc/docs/overview",
     "title": "Overview",
     "sections": [
       {
@@ -259,6 +281,8 @@
   },
   {
     "filename": "privacy.mdx",
+    "path": "/docs/privacy",
+    "url": "https://www.optimaai.cc/docs/privacy",
     "title": "Privacy Policy",
     "sections": [
       {
@@ -285,6 +309,8 @@
   },
   {
     "filename": "pro.mdx",
+    "path": "/docs/pro",
+    "url": "https://www.optimaai.cc/docs/pro",
     "title": "Pro Overview",
     "sections": [
       {
@@ -295,6 +321,8 @@
   },
   {
     "filename": "publishing.mdx",
+    "path": "/docs/publishing",
+    "url": "https://www.optimaai.cc/docs/publishing",
     "title": "Publishing your App",
     "sections": [
       {
@@ -317,6 +345,8 @@
   },
   {
     "filename": "quickstart.mdx",
+    "path": "/docs/quickstart",
+    "url": "https://www.optimaai.cc/docs/quickstart",
     "title": "Quickstart",
     "sections": [
       {
@@ -347,6 +377,8 @@
   },
   {
     "filename": "releases.mdx",
+    "path": "/docs/releases",
+    "url": "https://www.optimaai.cc/docs/releases",
     "title": "Releases",
     "sections": [
       {
@@ -365,6 +397,8 @@
   },
   {
     "filename": "roadmap.mdx",
+    "path": "/docs/roadmap",
+    "url": "https://www.optimaai.cc/docs/roadmap",
     "title": "Roadmap",
     "sections": [
       {
@@ -387,6 +421,8 @@
   },
   {
     "filename": "supabase.mdx",
+    "path": "/docs/supabase",
+    "url": "https://www.optimaai.cc/docs/supabase",
     "title": "Supabase Integration",
     "sections": [
       {
@@ -409,6 +445,8 @@
   },
   {
     "filename": "templates.mdx",
+    "path": "/docs/templates",
+    "url": "https://www.optimaai.cc/docs/templates",
     "title": "Templates Overview",
     "sections": [
       {
@@ -419,6 +457,8 @@
   },
   {
     "filename": "versioning.mdx",
+    "path": "/docs/versioning",
+    "url": "https://www.optimaai.cc/docs/versioning",
     "title": "Versioning",
     "sections": [
       {

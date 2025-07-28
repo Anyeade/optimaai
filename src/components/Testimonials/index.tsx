@@ -9,7 +9,7 @@ const testimonialData: Testimonial[] = [
     designation: "Indie Developer",
     content:
       "Trio Agent is a game-changer. I built and shipped my own AI-powered app in a weekend—no cloud, no privacy worries, just pure speed and control.",
-    image: "https://randomuser.me/api/portraits/men/62.jpg",
+    image: "/images/testimonials/author-01.png",
     star: 5,
   },
   {
@@ -18,7 +18,7 @@ const testimonialData: Testimonial[] = [
     designation: "CTO, SaaS Startup",
     content:
       "The 2M context window in Optima's Trio Model lets our team collaborate on huge codebases with zero lag. Local-first means our IP stays safe.",
-    image: "https://randomuser.me/api/portraits/women/86.jpg",
+    image: "/images/testimonials/author-02.png",
     star: 5,
   },
   {
@@ -27,7 +27,7 @@ const testimonialData: Testimonial[] = [
     designation: "AI Researcher",
     content:
       "Finally, an AI builder that respects privacy and actually runs on my machine. Trio Agent is fast, reliable, and the best tool for rapid prototyping.",
-    image: "https://randomuser.me/api/portraits/men/90.jpg",
+    image: "/images/testimonials/author-03.png",
     star: 5,
   },
 ];
