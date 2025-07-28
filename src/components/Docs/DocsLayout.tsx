@@ -33,7 +33,7 @@ const DocsLayout: React.FC<Props> = ({ children }) => {
       <main className="flex-1 flex flex-row px-2 md:px-8 py-8 md:py-12">
         <div className="flex-1 max-w-3xl mx-auto">
           {/* Add top margin to prevent overlap with site header/nav */}
-          <div className="mt-8 md:mt-20">
+          <div className="mt-16 md:mt-20">
             <SearchBar />
           </div>
           {/* Mobile Accordion below SearchBar */}
