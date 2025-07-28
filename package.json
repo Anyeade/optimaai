@@ -45,7 +45,6 @@
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",
-    "@types/bcryptjs": "^3.0.0",
     "@types/node": "^20.11.27",
     "@types/nodemailer": "^6.4.14",
     "@types/prismjs": "^1.26.3",
