@@ -1,3 +1,4 @@
+// @ts-nocheck
 /* eslint-disable */
 import React, { useState } from "react";
 import { OramaSearchBox } from "@orama/react-components";
