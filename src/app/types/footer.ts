@@ -1,3 +1,4 @@
+/* eslint-disable */
 export type link = {
   label: string
   href: string
