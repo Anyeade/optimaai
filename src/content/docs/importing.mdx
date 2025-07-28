@@ -1,0 +1,19 @@
+
+# Importing Apps
+
+If you have an existing app that you want to bring into Trio Agent, you can now import it (experimental).
+
+## Supported Apps
+- JavaScript/Node.js apps only (no PHP, Ruby, etc.)
+- Your app must have an `npm run dev` script.
+
+## How to Import
+1. Open your app code directory in your terminal and IDE (e.g., VS Code).
+2. Follow the prompts in Trio Agent to import your app.
+
+## AI Rules
+Trio Agent relies on a file called `AI_RULES.md` in the root of your project. This file contains instructions that guide the AI as it edits your app. If your project doesn’t have one, Trio Agent will generate it automatically.
+
+## Limitations
+- Only JavaScript apps are supported.
+- Most modern frameworks (Vite, Next.js) work out of the box.

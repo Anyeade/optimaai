@@ -1,0 +1,26 @@
+
+# Trio AI by Optima AI Inc
+
+Trio AI is a powerful  coding agent with a massive 2 million context window. Fast, private, and fully under your control—built for developers who want the best AI coding experience on their own machine.
+
+![Trio AI Logo](assets/logo_transparent.png)
+
+More info at: [https://optimaai.cc/](https://optimaai.cc/)
+
+## 🚀 Features
+
+- 🧠 **Trio AI Model**: Advanced coding agent with a huge 2 million context window.
+- ⚡️ **Local-first**: Fast, private, and no lock-in.
+- 🛠 **Bring your own keys**: Use your own AI API keys with no vendor lock-in.
+- 🖥️ **Cross-platform**: Easy to run on Windows or Mac.
+
+## 📦 Download
+
+No sign-up required. Just download and go.
+
+### [👉 Download for your platform](https://optimaai.cc/trio-download)
+
+## 📖 Documentation
+
+
+

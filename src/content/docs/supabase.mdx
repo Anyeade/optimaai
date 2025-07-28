@@ -1,0 +1,17 @@
+
+# Supabase Integration
+
+Trio Agent integrates with Supabase for authentication, database, and server functions.
+
+## Setup
+1. In Trio Agent, go to **Settings** > **Integrations** > **Connect Supabase**.
+2. Authorize access and select your Supabase organization.
+3. For each app, choose a Supabase project (create a new one for each app for simplicity).
+
+## Using Supabase
+- **Auth:** Add authentication (email/password by default). You can disable email confirmation in Supabase dashboard settings.
+- **Database:** Store and manage data. Supabase supports Row-Level Security (RLS) for secure, fine-grained access.
+- **Server Functions:** Use Supabase Edge Functions for tasks requiring private API keys (like calling OpenAI). These run on Supabase's servers, keeping sensitive keys out of the browser.
+
+## Troubleshooting
+- If you get an error like "No publishable key found for project", reconnect to Supabase and select the right organization.

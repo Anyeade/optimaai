@@ -1,0 +1,24 @@
+
+# Custom Models
+
+Trio Agent lets you use any AI model or provider, as long as they offer an OpenAI-compatible API.
+
+## Add a Provider
+1. Go to **Settings** > **AI Providers** > **Add Custom Provider**.
+2. Fill in the required information:
+   - **ID**: Used internally and cannot be changed later.
+   - **Display Name**: What will appear in the Trio Agent UI.
+   - **API Base URL**: Usually found in the provider’s documentation.
+
+## Add a Model
+1. In the **AI Providers** section of Settings, click on the provider you want to add a model for.
+2. Scroll to the bottom and click **Add Custom Model**.
+3. Fill in the following:
+   - **Model ID**: Must match exactly what's specified in the provider’s API documentation.
+   - **Name**: A user-friendly label shown in the Trio Agent UI.
+   - **Description**: Optional info for tooltips.
+   - **Max Output Tokens and Context Window**: Set based on the provider’s docs.
+
+## Tips
+- You can add as many providers and models as you want.
+- For advanced configuration, see the [AI Models](/docs/ai-models) and [Local Models](/docs/local-models) guides.

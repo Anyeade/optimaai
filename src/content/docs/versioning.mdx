@@ -1,0 +1,12 @@
+
+# Versioning
+
+Trio Agent automatically creates a new version every time it edits your code. This means you never have to worry about losing your progress if (and when) the AI makes a mistake.
+
+## How to Undo
+At the top of the chat panel, you'll see a button showing the current version. Click it to open the version list. Select a previous version to preview, then click undo to revert your code to that state.
+
+Even if you undo, you won't lose any history. Trio Agent's versioning system is always additive, so it's safe to undo at any time.
+
+## How It Works
+Every version in Trio Agent is essentially a git commit. The commit message summarizes the changes. Undo creates a new commit similar to a git revert, and can revert multiple commits at once.

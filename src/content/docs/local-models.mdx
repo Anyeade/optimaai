@@ -1,0 +1,24 @@
+
+# Local Models
+
+Trio Agent supports running local LLMs for maximum privacy and control. You can use tools like **LM Studio** (free for personal use) or **Ollama** (open-source) to run language models directly on your device.
+
+Running local LLMs can be resource-intensive, especially with larger or more advanced models. Smaller models may have trouble following Trio Agent's instructions and could produce less useful responses.
+
+## How to Use Local Models
+1. **Install LM Studio or Ollama** on your computer.
+2. Start the tool and load your desired model.
+3. In Trio Agent, open the model picker and select **Local Models**. Available models running on your device will appear.
+
+### Troubleshooting
+- **LM Studio:**
+  - If no models appear, ensure LM Studio is running at [http://localhost:1234](http://localhost:1234) and that models are loaded.
+- **Ollama:**
+  - If no models appear, ensure Ollama is running at [http://localhost:11434](http://localhost:11434), the default address.
+
+> **Tip:** Running large models requires significant system resources. For best results, use a machine with ample RAM and CPU/GPU power.
+
+## Picking the Right Model
+If you're not sure which model to use, start with the default ("auto") and experiment with others if you get stuck. No single model is best for all tasks—try several for optimal results.
+
+For more on model selection and advanced configuration, see the [AI Models](/docs/ai-models) and [Custom Models](/docs/custom-models) guides.
