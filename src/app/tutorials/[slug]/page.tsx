@@ -3,20 +3,21 @@ import { notFound } from "next/navigation";
 import { tutorialsData } from "@/content/tutorialsData";
 import { TutorialPlayer } from "@/components/Tutorial/TutorialPlayer";
 
-interface TutorialSlugPageProps {
-  params: { slug: string };
-}
 
-export async function generateMetadata({ params }: TutorialSlugPageProps) {
-  const tutorial = tutorialsData.find((t) => t.id === params.slug);
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const tutorial = tutorialsData.find((t) => t.id === slug);
   return {
     title: tutorial ? `${tutorial.title} | Tutorials` : "Tutorial Not Found",
     description: tutorial ? tutorial.description : undefined,
   };
 }
 
-const TutorialSlugPage = ({ params }: TutorialSlugPageProps) => {
-  const tutorial = tutorialsData.find((t) => t.id === params.slug);
+
+export default async function TutorialSlugPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const tutorial = tutorialsData.find((t) => t.id === slug);
   if (!tutorial) return notFound();
 
   return (
@@ -46,6 +47,4 @@ const TutorialSlugPage = ({ params }: TutorialSlugPageProps) => {
       </div>
     </main>
   );
-};
-
-export default TutorialSlugPage;
+}
