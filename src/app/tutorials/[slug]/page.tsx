@@ -5,8 +5,8 @@ import { TutorialPlayer } from "@/components/Tutorial/TutorialPlayer";
 
 
 
-export function generateMetadata({ params }: { params: { slug: string } }) {
-  const { slug } = params;
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
   const tutorial = tutorialsData.find((t) => t.id === slug);
   return {
     title: tutorial ? `${tutorial.title} | Tutorials` : "Tutorial Not Found",
@@ -15,8 +15,9 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
 }
 
 
-export default function TutorialSlugPage({ params }: { params: { slug: string } }) {
-  const tutorial = tutorialsData.find((t) => t.id === params.slug);
+export default async function TutorialSlugPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const tutorial = tutorialsData.find((t) => t.id === slug);
   if (!tutorial) return notFound();
 
   return (
