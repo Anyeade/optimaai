@@ -33,7 +33,7 @@ const Contact = () => {
                       Location
                     </h3>
                     <p className="text-base text-body-color dark:text-dark-6">
-                      Remote, Worldwide
+                      4030 Sheppard Ave E, Scarborough, ON. Canada
                     </p>
                   </div>
                 </div>
