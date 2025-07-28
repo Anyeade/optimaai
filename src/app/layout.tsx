@@ -10,6 +10,12 @@ import "../styles/prism-vsc-dark-plus.css";
 import ToasterContext from "./api/contex/ToasetContex";
 import { useEffect, useState } from "react";
 import PreLoader from "@/components/Common/PreLoader";
+import type { Metadata } from 'next';
+export const metadata: Metadata = {
+  metadataBase: new URL('https://optimaai.cc'),
+  title: 'Optima AI Solutions - Your Partner in Intelligent Innovation 🚀 ',
+  description: 'Optima AI Solutions is your partner in intelligent innovation, providing cutting-edge AI solutions for businesses of all sizes.',
+};
 
 export default function RootLayout({
   children,
