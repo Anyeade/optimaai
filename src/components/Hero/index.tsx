@@ -1,6 +1,5 @@
 import Link from "next/link";
-// If you intend to use next/image, uncomment the line below.
-// import Image from "next/image";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -10,21 +9,25 @@ const Hero = () => {
     >
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
-          {/* Left: Text Content */}
-          <div className="flex-1 max-w-xl text-left">
+            {/* Left: Text Content */}
+            <div className="flex-1 max-w-xl text-left flex flex-col justify-center min-h-[420px]">
             <div className="mb-6">
               <span className="inline-block rounded bg-gradient-to-r from-blue-500 to-purple-600 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-white mb-4">Optima AI Solutions</span>
               <h1 className="text-4xl md:text-5xl font-extrabold text-white leading-tight mb-4">
-                Meet <span className="text-blue-400">Trio AI Agent</span>
+                Create Stunning Apps & Websites <br />
+                <span className="text-blue-400">by Chatting with AI</span>
               </h1>
               <p className="text-lg text-white/80 mb-6">
-                The next-gen coding agent with a massive 2 million context window. Fast, private, and fully under your control—built for developers who want the best AI coding experience on their own machine.
+                <span className="font-semibold text-blue-400">Trio Agent</span> lets you build beautiful, production-ready apps and websites just by having a conversation. Describe your idea, chat with AI, and watch your vision come to life—no code required.
+              </p>
+              <p className="text-base text-white/60 mb-4">
+                Fast, private, and fully under your control. Powered by a massive 2 million context window and built for creators who want the best AI experience on their own machine.
               </p>
               <ul className="mb-8 space-y-2">
-                <li className="flex items-center text-white/80"><span className="mr-2 text-blue-400">•</span> AI Web Search & Suggestions</li>
-                <li className="flex items-center text-white/80"><span className="mr-2 text-blue-400">•</span> Local-first, Private, No Lock-in</li>
-                <li className="flex items-center text-white/80"><span className="mr-2 text-blue-400">•</span> Cross-platform (Windows/Mac/Linux)</li>
-                <li className="flex items-center text-white/80"><span className="mr-2 text-blue-400">•</span> Real-Time Collaboration & Analytics</li>
+              <li className="flex items-center text-white/80"><span className="mr-2 text-blue-400">•</span> AI Web Search & Suggestions</li>
+              <li className="flex items-center text-white/80"><span className="mr-2 text-blue-400">•</span> Local-first, Private, No Lock-in</li>
+              <li className="flex items-center text-white/80"><span className="mr-2 text-blue-400">•</span> Cross-platform (Windows/Mac/Linux)</li>
+              <li className="flex items-center text-white/80"><span className="mr-2 text-blue-400">•</span> Real-Time Collaboration & Analytics</li>
               </ul>
               <div className="flex gap-4">
                 <Link
@@ -41,22 +44,29 @@ const Hero = () => {
                   Learn More
                 </Link>
               </div>
+              {/* Core Integrations Row */}
+              <div className="flex items-center gap-4 mt-6">
+                <Image src="https://logo.clearbit.com/supabase.com" alt="Supabase" width={32} height={32} className="object-contain" />
+                <Image src="https://logo.clearbit.com/github.com" alt="GitHub" width={32} height={32} className="object-contain" />
+                <Image src="https://logo.clearbit.com/vercel.com" alt="Vercel" width={32} height={32} className="object-contain" />
+                <span className="text-white/80 text-sm ml-2">Fullstack backend, code sync, and instant deployment—powered by Supabase, GitHub & Vercel</span>
+              </div>
             </div>
-          </div>
-          {/* Right: Video Card */}
-          <div className="flex-1 flex items-center justify-center w-full md:w-auto">
-            <div className="rounded-2xl overflow-hidden shadow-2xl border border-white/10 bg-[#181c2a] p-2 max-w-[480px] w-full">
+            </div>
+            {/* Right: Video Card */}
+            <div className="flex-1 flex items-center justify-center w-full md:w-auto min-h-[420px]">
+            <div className="rounded-2xl overflow-hidden shadow-2xl border border-white/10 bg-[#181c2a] p-2 w-full max-w-xl h-full min-h-[420px] flex items-center justify-center">
               <video
-                src="/demo/trioappdemo.mp4"
-                controls
-                poster="/demo/screenshortappfront.jpg"
-                className="rounded-xl w-full h-auto object-cover bg-black"
-                autoPlay={false}
-                loop
-                muted
+              src="/demo/trioappdemo.mp4"
+              controls
+              poster="/demo/screenshortappfront.jpg"
+              className="rounded-xl w-full h-full object-cover bg-black"
+              autoPlay={false}
+              loop
+              muted
               />
             </div>
-          </div>
+            </div>
         </div>
       </div>
 

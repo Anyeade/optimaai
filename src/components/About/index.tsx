@@ -13,12 +13,43 @@ const About = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="mb-12 max-w-[540px] lg:mb-0">
                 <h2 className="mb-5 text-3xl font-bold leading-tight text-dark dark:text-white sm:text-[40px] sm:leading-[1.2]">
-                  About Optima AI & The Trio Agent Story
+                  About Trio Agent: Build Anything by Chatting with AI
                 </h2>
                 <p className="mb-6 text-base leading-relaxed text-body-color dark:text-dark-6">
-                  <strong>Optima AI</strong> is a one-person company founded by <strong>Hans Ade (Anye Happiness Ade)</strong>—a solo builder on a mission to make AI powerful, private, and accessible to all.<br /><br />
-                  <strong>Trio Agent</strong> is the result of relentless passion: a local-first AI app builder with a 2 million token context window, privacy by default, and full-stack extensibility. Built for developers, by a developer who values control, speed, and trust.
+                  <strong>Trio Agent</strong> lets you create apps and websites just by describing your idea in plain language. No code, no design skills, no technical barriers—just chat, and AI builds it for you. <br /><br />
+                  <strong>Optima AI</strong> is a solo founder company on a mission to make AI radically accessible, private, and empowering. Trio Agent is local-first, privacy-by-default, and gives you full-stack extensibility with a 2 million token context window.
                 </p>
+
+                {/* Value grid for clarity and user resonance */}
+                <div className="mb-8 grid gap-6 md:grid-cols-2">
+                  <div className="rounded-lg bg-white p-5 shadow dark:bg-dark-2">
+                    <h3 className="mb-2 text-lg font-semibold text-dark dark:text-white">Chat-to-Build</h3>
+                    <p className="text-body-color dark:text-dark-6">Describe your vision—Trio Agent instantly turns your words into a working app or website. No forms, no templates, just conversation.</p>
+                  </div>
+                  <div className="rounded-lg bg-white p-5 shadow dark:bg-dark-2">
+                    <h3 className="mb-2 text-lg font-semibold text-dark dark:text-white">Zero Learning Curve</h3>
+                    <p className="text-body-color dark:text-dark-6">No code, no design skills, no problem. If you can describe it, you can build it. Iterate and launch in minutes.</p>
+                  </div>
+                  <div className="rounded-lg bg-white p-5 shadow dark:bg-dark-2">
+                    <h3 className="mb-2 text-lg font-semibold text-dark dark:text-white">Empowering Everyone</h3>
+                    <p className="text-body-color dark:text-dark-6">From solo founders to teams, Trio Agent is your creative partner—ready to help you build, grow, and innovate 24/7.</p>
+                  </div>
+                  <div className="rounded-lg bg-white p-5 shadow dark:bg-dark-2">
+                    <h3 className="mb-2 text-lg font-semibold text-dark dark:text-white">Private & Local-First</h3>
+                    <p className="text-body-color dark:text-dark-6">Your data stays on your machine. No cloud lock-in, no data mining—just pure, blazing-fast intelligence on your own terms.</p>
+                  </div>
+                  <div className="rounded-lg bg-white p-5 shadow dark:bg-dark-2 md:col-span-2">
+                    <div className="flex items-center gap-4 mb-2">
+                      <Image src="https://logo.clearbit.com/supabase.com" alt="Supabase" width={32} height={32} className="object-contain" />
+                      <Image src="https://logo.clearbit.com/github.com" alt="GitHub" width={32} height={32} className="object-contain" />
+                      <Image src="https://logo.clearbit.com/vercel.com" alt="Vercel" width={32} height={32} className="object-contain" />
+                      <h3 className="ml-2 text-lg font-semibold text-dark dark:text-white">Fullstack Power: Supabase, GitHub & Vercel Integrations</h3>
+                    </div>
+                    <p className="text-body-color dark:text-dark-6">
+                      Build real fullstack apps with Trio Agent: instantly generate a backend powered by <strong>Supabase</strong> (PostgreSQL DB & Edge Functions), connect and sync your codebase with <strong>GitHub</strong> for version control and collaboration, and deploy live to <strong>Vercel</strong>—all from inside the app. Push, install, and synchronize your code to GitHub, then deploy instantly to Vercel for a seamless, production-ready workflow.
+                    </p>
+                  </div>
+                </div>
                 <div className="mb-8 rounded-lg bg-primary/10 p-5 text-sm text-primary dark:bg-primary/20">
                   <strong>Founder’s Note:</strong> <br />
                   "I built Optima AI and Trio Agent because I believe everyone deserves AI that works for them—not the other way around. No cloud lock-in, no data mining, just pure, blazing-fast intelligence on your own terms."

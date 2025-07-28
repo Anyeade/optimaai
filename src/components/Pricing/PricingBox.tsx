@@ -32,20 +32,30 @@ const PricingBox = ({ product }: { product: Price }) => {
             Recommended
           </p>
         )}
-        <span className="mb-5 block text-xl font-medium text-dark dark:text-white">
+        <span className="mb-2 block text-xl font-semibold text-primary">
           {product.nickname}
         </span>
+        <span className="mb-5 block text-base font-normal text-dark dark:text-white opacity-80">
+          {product.nickname === "Personal (Free)"
+            ? "Start building apps & websites by chatting with AI—no cost, no credit card."
+            : product.nickname === "Pro"
+            ? "Unlock advanced AI features, 2M context, and real-time collaboration."
+            : "For teams who want to build together with AI—manage, collaborate, and scale."}
+        </span>
         <h2 className="mb-11 text-4xl font-semibold text-dark dark:text-white xl:text-[42px] xl:leading-[1.21]">
-          <span className="text-xl font-medium">$ </span>
-          <span className="-ml-1 -tracking-[2px]">
-            {(product.unit_amount / 100).toLocaleString("en-US", {
-              currency: "USD",
-            })}
-          </span>
-          <span className="text-base font-normal text-body-color dark:text-dark-6">
-            {" "}
-            Per Month
-          </span>
+          {product.unit_amount === 0 ? (
+            <>
+              <span className="text-xl font-medium">$ </span>
+              <span className="-ml-1 -tracking-[2px]">0</span>
+              <span className="text-base font-normal text-body-color dark:text-dark-6"> Free Forever</span>
+            </>
+          ) : (
+            <>
+              <span className="text-xl font-medium">$ </span>
+              <span className="-ml-1 -tracking-[2px]">{(product.unit_amount / 100).toLocaleString("en-US", { currency: "USD" })}</span>
+              <span className="text-base font-normal text-body-color dark:text-dark-6"> Per Month</span>
+            </>
+          )}
         </h2>
 
         <div className="mb-[50px]">

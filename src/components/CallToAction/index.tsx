@@ -9,13 +9,13 @@ const CallToAction = () => {
             <div className="w-full px-4">
               <div className="mx-auto max-w-[570px] text-center">
                 <h2 className="mb-2.5 text-3xl font-bold text-white md:text-[38px] md:leading-[1.44]">
-                  <span>Ready to Supercharge Your Coding?</span>
+                  <span>Build Apps & Websites by Chatting with AI</span>
                   <span className="block text-3xl font-normal md:text-[40px] mt-1">
-                    Download Trio AI Agent Now
+                    Try Trio Agent—No Code, Just Conversation
                   </span>
                 </h2>
                 <p className="mx-auto mb-6 max-w-[515px] text-base leading-[1.5] text-white">
-                  Experience the next generation of AI coding with a 2M context window, local-first privacy, and real-time collaboration. Fast, private, and fully under your control—get started in seconds!
+                  Describe your idea, chat with AI, and watch your app or website come to life. Download Trio Agent and experience the future of app creation—fast, private, and fully under your control.
                 </p>
                 <Link
                   href="https://optimaai.cc/trio-download"
