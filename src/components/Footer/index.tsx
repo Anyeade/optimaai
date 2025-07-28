@@ -33,7 +33,7 @@ const Footer = () => {
                   <span className="font-semibold text-white">Phone:</span> <a href="tel:+237679719353" className="hover:text-primary underline mr-2">+237679719353</a> / <a href="tel:+14164071923" className="hover:text-primary underline">+1 (416) 407-1923</a>
                 </div>
                 <div>
-                  <span className="font-semibold text-white">Address:</span> Toronto, Ontario Canada
+                  <span className="font-semibold text-white">Address:</span> 4030 Sheppard Ave E, Scarborough, ON. Canada
                 </div>
                 <div>
                   <span className="font-semibold text-white">Facebook:</span> <a href="https://facebook.com/optimaai.cc" target="_blank" rel="noopener noreferrer" className="hover:text-primary underline">facebook.com/optimaai.cc</a>
