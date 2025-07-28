@@ -1,0 +1,438 @@
+[
+  {
+    "filename": "ai-models.mdx",
+    "title": "AI Models",
+    "sections": [
+      {
+        "heading": "AI Models",
+        "content": "By default, Trio Agent ships with its own free Agentic model (Trio AI) with a large 2 million context window."
+      },
+      {
+        "heading": "Setting Up AI Models",
+        "content": "Trio Agent lets you choose your favorite AI model from the top AI providers: Google Gemini (recommended for free tier), OpenRouter (aggregator, free access to DeepSeek v3, etc.), Anthropic (strong coding models, paid), OpenAI (wide range, affordable, some free tiers), Local models (see Local Models guide)."
+      },
+      {
+        "heading": "Auto Model",
+        "content": "The default model is called auto. Trio Agent will pick the most suitable or available model depending on which AI providers you've set up. This is a good starting point, but you can always switch to a specific model."
+      },
+      {
+        "heading": "Picking the Right Model",
+        "content": "No one model is best for all coding tasks. Try several models for optimal results. For the best AI models for creating web apps, check out the WebDev Arena Leaderboard."
+      },
+      {
+        "heading": "Custom Models",
+        "content": "You can add any AI provider or model that offers an OpenAI-compatible API. See the Custom Models guide for details."
+      }
+    ]
+  },
+  {
+    "filename": "chatting.mdx",
+    "title": "Chatting with AI",
+    "sections": [
+      {
+        "heading": "Chatting with AI",
+        "content": "Chatting with AI (aka 'prompting') is more of an art than a science, but here are a few tips to help you get more out of chatting with AI in Trio Agent."
+      },
+      {
+        "heading": "Use Multiple Chats",
+        "content": "Trio Agent allows you to create multiple chats (conversations) for the same app, giving you better control over the context. Create a new chat if your previous one went off track."
+      },
+      {
+        "heading": "Write Detailed First Prompts",
+        "content": "Be as specific as you can, especially with your first prompt. This helps the AI understand what you want. Bad prompt: Build an AI food scanner app. Good prompt: Build an AI food scanner app. It should have a welcome screen with a carousel, each section with an image and text. The main screen lets the user upload an image, which is sent to an AI to predict the food and calories, and the user can confirm."
+      },
+      {
+        "heading": "Review the Change",
+        "content": "Trio Agent summarizes the changes it makes to each file. Make sure these match your expectations. If the AI does too much or too little, use undo or ask for clarification."
+      },
+      {
+        "heading": "Try Another Model",
+        "content": "If you get stuck, try a different model or start a new chat. No single model is best for all tasks."
+      },
+      {
+        "heading": "Manage Your Context",
+        "content": "For large projects, create new chats or use the summarize feature to keep context manageable."
+      }
+    ]
+  },
+  {
+    "filename": "comparison.mdx",
+    "title": "Comparison",
+    "sections": [
+      {
+        "heading": "Comparison",
+        "content": "How does Trio Agent compare to other AI app builders? Context window: 2 million tokens (see Roadmap for future plans), Local-first: All code runs on your machine, no lock-in, Cross-platform: Windows, Mac, Linux, Real-time collaboration: Yes, App builder: Yes, with templates and integrations. See the Roadmap for more details."
+      }
+    ]
+  },
+  {
+    "filename": "custom-models.mdx",
+    "title": "Custom Models",
+    "sections": [
+      {
+        "heading": "Custom Models",
+        "content": "Trio Agent lets you use any AI model or provider, as long as they offer an OpenAI-compatible API."
+      },
+      {
+        "heading": "Add a Provider",
+        "content": "Go to Settings > AI Providers > Add Custom Provider. Fill in the required information: ID, Display Name, API Base URL."
+      },
+      {
+        "heading": "Add a Model",
+        "content": "In the AI Providers section of Settings, click on the provider you want to add a model for. Scroll to the bottom and click Add Custom Model. Fill in the following: Model ID, Name, Description, Max Output Tokens and Context Window."
+      },
+      {
+        "heading": "Tips",
+        "content": "You can add as many providers and models as you want. For advanced configuration, see the AI Models and Local Models guides."
+      }
+    ]
+  },
+  {
+    "filename": "debugging.mdx",
+    "title": "Debugging",
+    "sections": [
+      {
+        "heading": "Debugging",
+        "content": "Debugging with AI to fix errors is one of the most important skills in using Trio Agent effectively."
+      },
+      {
+        "heading": "Describe the Issue Clearly",
+        "content": "Imagine you're talking to a human co-worker. Provide as many details as possible so the AI knows what to fix. Include error messages if you have them. Bad prompt: fix broken app. Good prompt: After I click the sign-up button, the page is blank."
+      },
+      {
+        "heading": "Use the Undo Feature",
+        "content": "If something goes wrong, use the undo feature to revert to a previous version. Test often and use undo as needed."
+      },
+      {
+        "heading": "Try Another Model",
+        "content": "If you get stuck, try the same prompt with a different model—especially a more powerful one like Gemini Pro 2.5 or Claude Sonnet 4."
+      },
+      {
+        "heading": "Manage Your Context",
+        "content": "For large projects, create new chats or use the summarize feature to keep context manageable."
+      }
+    ]
+  },
+  {
+    "filename": "faq.mdx",
+    "title": "Frequently Asked Questions",
+    "sections": [
+      {
+        "heading": "What is Trio Agent?",
+        "content": "Trio Agent is a local-first AI app builder that lets you create, deploy your fullstack apps, and use AI-powered tools right on your machine—no cloud required. Fast, private, and fully under your control."
+      },
+      {
+        "heading": "How private is my data with Trio Agent?",
+        "content": "All processing happens locally on your device. Your code, data, and prompts never leave your machine unless you choose to share them."
+      },
+      {
+        "heading": "What is the 2 million context window?",
+        "content": "Optima AI's Trio Model supports up to 2 million tokens of context, letting you work with huge codebases, documents, or conversations without losing track."
+      },
+      {
+        "heading": "What platforms does Trio Agent support?",
+        "content": "Trio Agent runs on Windows, Mac, and Linux. Cross-platform collaboration is built-in."
+      },
+      {
+        "heading": "How is pricing structured?",
+        "content": "We offer a free Personal plan, a Pro plan with advanced features, and a Team plan for organizations. All plans include privacy-first AI and blazing-fast performance."
+      },
+      {
+        "heading": "Where can I get support?",
+        "content": "You can reach out via our website, join the community, or contact us directly for Pro/Team support."
+      }
+    ]
+  },
+  {
+    "filename": "github.mdx",
+    "title": "GitHub Integration",
+    "sections": [
+      {
+        "heading": "GitHub Integration",
+        "content": "Trio Agent has built-in integration with GitHub, making it easy to push your local changes to a GitHub project."
+      },
+      {
+        "heading": "How to Sync",
+        "content": "Open the app details card in Trio Agent and click Connect to GitHub. Authorize access as prompted. Click Sync to GitHub to push your code from your local computer to GitHub. You can do this anytime to push new changes."
+      },
+      {
+        "heading": "Advanced Workflows",
+        "content": "Use GitHub Desktop for a user-friendly interface. Use the Git CLI for advanced workflows. For step-by-step instructions, see the Publishing your App guide."
+      }
+    ]
+  },
+  {
+    "filename": "importing.mdx",
+    "title": "Importing Apps",
+    "sections": [
+      {
+        "heading": "Importing Apps",
+        "content": "If you have an existing app that you want to bring into Trio Agent, you can now import it (experimental)."
+      },
+      {
+        "heading": "Supported Apps",
+        "content": "JavaScript/Node.js apps only (no PHP, Ruby, etc.). Your app must have an npm run dev script."
+      },
+      {
+        "heading": "How to Import",
+        "content": "Open your app code directory in your terminal and IDE (e.g., VS Code). Follow the prompts in Trio Agent to import your app."
+      },
+      {
+        "heading": "AI Rules",
+        "content": "Trio Agent relies on a file called AI_RULES.md in the root of your project. This file contains instructions that guide the AI as it edits your app. If your project doesn’t have one, Trio Agent will generate it automatically."
+      },
+      {
+        "heading": "Limitations",
+        "content": "Only JavaScript apps are supported. Most modern frameworks (Vite, Next.js) work out of the box."
+      }
+    ]
+  },
+  {
+    "filename": "local-models.mdx",
+    "title": "Local Models",
+    "sections": [
+      {
+        "heading": "Local Models",
+        "content": "Trio Agent supports running local LLMs for maximum privacy and control. You can use tools like LM Studio (free for personal use) or Ollama (open-source) to run language models directly on your device."
+      },
+      {
+        "heading": "How to Use Local Models",
+        "content": "Install LM Studio or Ollama on your computer. Start the tool and load your desired model. In Trio Agent, open the model picker and select Local Models. Available models running on your device will appear."
+      },
+      {
+        "heading": "Troubleshooting",
+        "content": "LM Studio: If no models appear, ensure LM Studio is running at http://localhost:1234 and that models are loaded. Ollama: If no models appear, ensure Ollama is running at http://localhost:11434, the default address. Tip: Running large models requires significant system resources. For best results, use a machine with ample RAM and CPU/GPU power."
+      },
+      {
+        "heading": "Picking the Right Model",
+        "content": "If you're not sure which model to use, start with the default (auto) and experiment with others if you get stuck. No single model is best for all tasks—try several for optimal results. For more on model selection and advanced configuration, see the AI Models and Custom Models guides."
+      }
+    ]
+  },
+  {
+    "filename": "mobile.mdx",
+    "title": "Mobile App",
+    "sections": [
+      {
+        "heading": "Mobile App",
+        "content": "Trio Agent has experimental support for hybrid mobile apps using Capacitor."
+      },
+      {
+        "heading": "Should You Build a Mobile App?",
+        "content": "Web apps are powerful and easy to deploy, but native mobile apps offer: Deeper device integration, Push notifications, Offline access. However, native apps are more complex to build and maintain. If unsure, start with a web app using the default React template—you can always upgrade later."
+      },
+      {
+        "heading": "How to Upgrade",
+        "content": "Go to the App Details page in Trio Agent. In the Upgrades section, look for Upgrade to hybrid mobile app with Capacitor and click Upgrade. If the upgrade doesn't work, you can manually add Capacitor to your app."
+      },
+      {
+        "heading": "Install IDEs",
+        "content": "For Android: Install Android Studio. For iOS: Install Xcode (Mac only)."
+      },
+      {
+        "heading": "Open Your Mobile App in the IDE",
+        "content": "On the App Details page, you’ll see buttons to sync and open in Xcode or Android Studio. Click the one for your platform."
+      },
+      {
+        "heading": "Troubleshooting",
+        "content": "Refer to Capacitor’s documentation and the guides for Android/iOS if you run into issues."
+      }
+    ]
+  },
+  {
+    "filename": "overview.mdx",
+    "title": "Overview",
+    "sections": [
+      {
+        "heading": "Overview",
+        "content": "Welcome to Optima/Trio Agent documentation! This guide will help you get started, integrate, and master the platform."
+      },
+      {
+        "heading": "What is Optima/Trio Agent?",
+        "content": "Optima/Trio Agent is a next-gen, local-first AI coding agent and app builder. It offers: Massive context window (2M tokens), Local-first, private, no lock-in, Cross-platform (Windows/Mac/Linux), Real-time collaboration & analytics, App builder, templates, and integrations."
+      },
+      {
+        "heading": "Quick Links",
+        "content": "Getting Started, Guides, API Reference, Templates, Integrations, Help."
+      }
+    ]
+  },
+  {
+    "filename": "privacy.mdx",
+    "title": "Privacy Policy",
+    "sections": [
+      {
+        "heading": "Privacy Policy",
+        "content": "Your data is yours — not ours — and its privacy is extremely important to us. Trio Agent never sells your data—never has, and never will. Because Trio Agent is open-source, you can inspect our code to verify that we follow our stated policies."
+      },
+      {
+        "heading": "What We Collect",
+        "content": "Telemetry Data: With your consent, we collect basic telemetry to help us understand usage and identify errors. This includes anonymized data such as feature usage, error reports, model selection, and randomly generated identifiers. No chat messages, prompts, or code are collected. Troubleshooting Logs: If you use Upload Chat Session, we may collect your chat and select portions of your codebase for debugging. This is used only for support and deleted after about a month."
+      },
+      {
+        "heading": "How Your Data is Handled",
+        "content": "Free Version: Prompts and code are sent directly to model providers (e.g., OpenAI) or stay on your device for local models. Data never passes through Trio Agent servers. Pro Version: Prompts and code are proxied through Trio Agent servers only for hosted AI models. Logging is minimized and only for abuse prevention. Data is never used to train any model."
+      },
+      {
+        "heading": "Your Rights",
+        "content": "You have the right to know, access, correct, erase, restrict, object, and port your personal information. You can exercise these rights by updating your account info or contacting support."
+      },
+      {
+        "heading": "Data Retention",
+        "content": "We keep your information only as long as needed for the purposes for which it is processed, or as required by law."
+      }
+    ]
+  },
+  {
+    "filename": "pro.mdx",
+    "title": "Pro Overview",
+    "sections": [
+      {
+        "heading": "Pro Overview",
+        "content": "Trio Agent Pro is a subscription service that gives users several perks on top of the core free product: AI credits, Pro modes, Office hours, Learning content. You can subscribe to Trio Agent Pro on the pricing page."
+      }
+    ]
+  },
+  {
+    "filename": "publishing.mdx",
+    "title": "Publishing your App",
+    "sections": [
+      {
+        "heading": "Publishing your App",
+        "content": "Step-by-step guide for deploying your app with GitHub and Vercel. So, you've built something awesome and now you want to share it with other people (or the whole world). You can deploy your Trio Agent app anywhere, including your favorite cloud provider. Here’s a simple and free way to deploy using GitHub and Vercel."
+      },
+      {
+        "heading": "Host Your Code on GitHub",
+        "content": "Create a GitHub account if you don’t have one. Create a GitHub project (private or public). In Trio Agent, open the app details card and click Connect to GitHub. Authorize access as prompted. Click Sync to GitHub to push your code from your local computer to GitHub. You can do this anytime to push new changes."
+      },
+      {
+        "heading": "Deploying with Vercel",
+        "content": "Go to vercel.com/new and click Continue with GitHub. Import your GitHub project and click Deploy. Vercel will auto-detect your framework (e.g., Vite, Next.js). Add any required environment variables (e.g., for Supabase, OpenAI) if prompted. After deployment, you’ll get a live URL."
+      },
+      {
+        "heading": "Tips",
+        "content": "Use Sync to GitHub in Trio Agent to push new changes and trigger redeploys. For advanced workflows, see the GitHub Integration guide."
+      }
+    ]
+  },
+  {
+    "filename": "quickstart.mdx",
+    "title": "Quickstart",
+    "sections": [
+      {
+        "heading": "Quickstart",
+        "content": "Learn how to set up Trio Agent and start building your first app."
+      },
+      {
+        "heading": "Installing Trio Agent",
+        "content": "Download Trio Agent for your platform (Windows, Mac, Linux) from the official site. Open the app. On Windows, you may see a blue warning from Microsoft—click 'More info' then 'Run anyway.'"
+      },
+      {
+        "heading": "Setup Steps",
+        "content": "When you open Trio Agent, you'll see a banner on the home screen indicating Trio AI ready no setup needed, You can now start building and experimenting Trio Agent features and functionalities for free. In addition if you want to setup and use a different provider, you can typically do that by clicking settings in sidebar, go under AI and configure your preferred provider with your api key."
+      },
+      {
+        "heading": "Install Node.js",
+        "content": "Trio Agent requires Node.js to run your apps. Download and install it from the official Node.js site."
+      },
+      {
+        "heading": "Setup AI Access",
+        "content": "You’ll typically want to access AI models via APIs like Google Gemini, Anthropic Claude, or OpenAI. Recommended: Create a Google Gemini API key for a generous free tier (e.g., 250 messages/day for Gemini 2.5 Flash)."
+      },
+      {
+        "heading": "Creating Your First App",
+        "content": "Type something into the chat input and click send (or press Enter). Trio Agent will start building an app for you. After the AI finishes generating the code, you'll need to approve it. Once approved, the code is saved and run on your computer. You’ll see a preview of the app open on the right side."
+      }
+    ]
+  },
+  {
+    "filename": "releases.mdx",
+    "title": "Releases",
+    "sections": [
+      {
+        "heading": "Releases",
+        "content": "Stay up to date with the latest updates, improvements, and new features in Trio Agent. This page lists all major releases and their highlights."
+      },
+      {
+        "heading": "v1.0.0 (Initial Release)",
+        "content": "Launch of Trio Agent with core features: Massive 2M token context window, Local-first, private, no lock-in, Cross-platform (Windows, Mac, Linux), Bring your own API keys (OpenAI, Gemini, Claude, etc.), GitHub integration, Supabase integration, Real-time collaboration, Advanced analytics, Customizable themes and dark mode, Offline mode, User feedback system, Automated workflows, Enhanced security features, Comprehensive tutorials and guides."
+      },
+      {
+        "heading": "Upcoming",
+        "content": "Visual Editor (Figma-like interface), Real-Time Feedback during development, Custom Domain Support, Multiplayer Collaboration, Dev Mode (Direct code editing), Security Scan (Surface vulnerabilities), Undo and Version History, Agent Mode (Autonomous actions), Visual Edits (Precise UI adjustments), New Brand and UI, Rapid Prototyping, Custom Domain Hosting, Code Viewer (Minor edits to project files), Edge Functions, CTO for MVP (No CTO needed for MVP development)."
+      }
+    ]
+  },
+  {
+    "filename": "roadmap.mdx",
+    "title": "Roadmap",
+    "sections": [
+      {
+        "heading": "Roadmap",
+        "content": "Stay up to date with the latest features, integrations, and plans for Trio Agent. This page outlines what’s shipped, what’s coming, and how we compare to the competition."
+      },
+      {
+        "heading": "About the App",
+        "content": "Our app is designed to provide a seamless and efficient experience for users, focusing on core integrations and unique features that set it apart from competitors like lovable.dev."
+      },
+      {
+        "heading": "Implemented Features",
+        "content": "AI Web Search Integration, Dark Mode Support, Customizable Themes, Multi-Language Support, Offline Mode, Advanced Analytics, AI-Powered Suggestions, Integration with Popular Services, User-Friendly Interface, Real-Time Collaboration, Enhanced Security Features, Customizable Notifications, Seamless Sync Across Devices, Advanced Search Functionality, Detailed Reporting Tools, Automated Workflows, Integration with Third-Party APIs, User Feedback System, Advanced Customization Options, Enhanced Performance Optimization, Comprehensive Tutorials and Guides."
+      },
+      {
+        "heading": "Core Integrations",
+        "content": "Supabase, Vercel, GitHub, LM Studio, Dyad."
+      }
+    ]
+  },
+  {
+    "filename": "supabase.mdx",
+    "title": "Supabase Integration",
+    "sections": [
+      {
+        "heading": "Supabase Integration",
+        "content": "Trio Agent integrates with Supabase for authentication, database, and server functions."
+      },
+      {
+        "heading": "Setup",
+        "content": "In Trio Agent, go to Settings > Integrations > Connect Supabase. Authorize access and select your Supabase organization. For each app, choose a Supabase project (create a new one for each app for simplicity)."
+      },
+      {
+        "heading": "Using Supabase",
+        "content": "Auth: Add authentication (email/password by default). You can disable email confirmation in Supabase dashboard settings. Database: Store and manage data. Supabase supports Row-Level Security (RLS) for secure, fine-grained access. Server Functions: Use Supabase Edge Functions for tasks requiring private API keys (like calling OpenAI). These run on Supabase's servers, keeping sensitive keys out of the browser."
+      },
+      {
+        "heading": "Troubleshooting",
+        "content": "If you get an error like 'No publishable key found for project', reconnect to Supabase and select the right organization."
+      }
+    ]
+  },
+  {
+    "filename": "templates.mdx",
+    "title": "Templates Overview",
+    "sections": [
+      {
+        "heading": "Templates Overview",
+        "content": "Trio Agent comes with several built-in templates to help you get started quickly: React (Default): Minimal React/Vite.js app, great for basic apps. For backend functionality, use Supabase server functions. Next.js: Minimal Next.js app set up with Shadcn and Tailwind. Provides seamless frontend/backend integration and good performance. AngularJS: Minimal AngularJS app set up with Shadcn and Tailwind. Choose the template that best fits your needs. For backend-heavy apps, Next.js is recommended. For simple client-side apps, React is a great choice."
+      }
+    ]
+  },
+  {
+    "filename": "versioning.mdx",
+    "title": "Versioning",
+    "sections": [
+      {
+        "heading": "Versioning",
+        "content": "Trio Agent automatically creates a new version every time it edits your code. This means you never have to worry about losing your progress if (and when) the AI makes a mistake."
+      },
+      {
+        "heading": "How to Undo",
+        "content": "At the top of the chat panel, you'll see a button showing the current version. Click it to open the version list. Select a previous version to preview, then click undo to revert your code to that state. Even if you undo, you won't lose any history. Trio Agent's versioning system is always additive, so it's safe to undo at any time."
+      },
+      {
+        "heading": "How It Works",
+        "content": "Every version in Trio Agent is essentially a git commit. The commit message summarizes the changes. Undo creates a new commit similar to a git revert, and can revert multiple commits at once."
+      }
+    ]
+  }
+]

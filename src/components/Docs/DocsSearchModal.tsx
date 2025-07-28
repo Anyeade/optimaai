@@ -9,11 +9,11 @@ const searchBoxConfig = {
     title: "title",
     description: "description",
   },
-  colorScheme: "dark" as "system" | "light" | "dark",
+  "colorScheme": "dark",
   themeConfig: {
-    light: {
-      "--button-background-color-primary": "#000000ff",
-    },
+     "dark": {
+      "--chat-button-background-color-gradientOne": "#97e7be"
+    }
   },
 };
 
@@ -39,8 +39,8 @@ const DocsSearchModal: React.FC<DocsSearchModalProps> = ({ isOpen, onClose }) =>
         <OramaSearchBox
           open={isOpen}
           index={{
-            endpoint: "https://cloud.orama.run/v1/indexes/optimaai-cc-beqme9",
-            api_key: "QIZjJKKJjflPzh3BxtyS3Niv5q2XhInh",
+           endpoint: "https://cloud.orama.run/v1/indexes/docs-gllxg3",
+          api_key: "YIPpOGRwxUrJcL1FtoDWUe829lu7QMRx",
           }}
           {...searchBoxConfig}
         />
