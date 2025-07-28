@@ -8,9 +8,9 @@ const Hero = () => {
       className="relative overflow-hidden bg-[#10141f] pt-[120px] md:pt-[130px] lg:pt-[160px] min-h-[80vh] flex items-center"
     >
       <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-12">
+        <div className="flex flex-col md:flex-row items-stretch justify-between gap-12 h-full min-h-[520px]">
             {/* Left: Text Content */}
-            <div className="flex-1 max-w-xl text-left flex flex-col justify-center min-h-[420px]">
+            <div className="flex-1 max-w-xl text-left flex flex-col justify-center h-full">
             <div className="mb-6">
               <span className="inline-block rounded bg-gradient-to-r from-blue-500 to-purple-600 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-white mb-4">Optima AI Solutions</span>
               <h1 className="text-4xl md:text-5xl font-extrabold text-white leading-tight mb-4">
@@ -54,18 +54,18 @@ const Hero = () => {
             </div>
             </div>
             {/* Right: Video Card */}
-            <div className="flex-1 flex items-center justify-center w-full md:w-auto min-h-[420px]">
-            <div className="rounded-2xl overflow-hidden shadow-2xl border border-white/10 bg-[#181c2a] p-2 w-full max-w-xl h-full min-h-[420px] flex items-center justify-center">
-              <video
-              src="/demo/trioappdemo.mp4"
-              controls
-              poster="/demo/screenshortappfront.jpg"
-              className="rounded-xl w-full h-full object-cover bg-black"
-              autoPlay={false}
-              loop
-              muted
-              />
-            </div>
+            <div className="flex-1 flex items-stretch justify-center w-full md:w-auto h-full">
+              <div className="rounded-2xl overflow-hidden shadow-2xl border border-white/10 bg-[#181c2a] p-2 w-full max-w-xl h-full flex items-stretch justify-center">
+                <video
+                  src="/demo/trioappdemo.mp4"
+                  controls
+                  poster="/demo/screenshortappfront.jpg"
+                  className="rounded-xl w-full h-full object-cover bg-black"
+                  autoPlay={false}
+                  loop
+                  muted
+                />
+              </div>
             </div>
         </div>
       </div>
